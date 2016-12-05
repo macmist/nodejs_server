@@ -16,4 +16,4 @@ deployment:
     branch: dev
     commands:
       - $DEPLOY
-      - heroku run rake db:migrate --app
+      - heroku run rake db:migrate --app todolist
