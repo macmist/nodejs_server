@@ -16,4 +16,4 @@ deployment:
     branch: dev
     commands:
       - $DEPLOY
-      - git push git@heroku.com:nodejs_server.git $CIRCLE_SHA1:refs/heads/dev
+      - git push git@heroku.com:toodolist.git $CIRCLE_SHA1:refs/heads/dev
