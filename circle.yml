@@ -13,6 +13,6 @@ test:
 # Specify to execute the $DEPLOY command for the deployment
 deployment:
   hub:
-    branch: master
+    branch: dev
     commands:
       - $DEPLOY
