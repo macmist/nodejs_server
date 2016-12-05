@@ -54,7 +54,7 @@ app.post('/get', jsonParser, (req, res) => {
     res.redirect('/detail/' + req.body._id);
 });
 
-app.listen(port, (err) => {
+app.listen(process.env.PORT || port, (err) => {
     if (err) {
         return console.log('something bad happened', err)
     }

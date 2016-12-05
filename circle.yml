@@ -16,4 +16,4 @@ deployment:
     branch: dev
     commands:
       - $DEPLOY
-      - heroku run rake db:migrate --app todolist
+      - git push git@heroku.com:nodejs_server.git $CIRCLE_SHA1:refs/heads/dev
