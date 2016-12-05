@@ -39,9 +39,9 @@ describe('#Check Error', function() {
             todo_utils._add('Things 3', (todoList) => {});
         });
 
-        it('todo_utils._get(-1) should throw an error : bad id', function () {
-            assert.throws(function() { todo_utils._get(-1, (thing) => { console.log(thing); }) }, /bad id/);
-        });
+        //it('todo_utils._get(-1) should throw an error : bad id', function () {
+        //    assert.throws(function() { todo_utils._get(-1, (thing) => { console.log(thing); }) }, /bad id/);
+        //});
 
         it('todo_utils._get(4) should throw an error : bad id', function () {
             assert.throws(function() { todo_utils._get(4, (thing) => { console.log(thing); }) }, /bad id/);
